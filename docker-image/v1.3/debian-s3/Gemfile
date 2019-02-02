@@ -11,3 +11,4 @@ gem "fluent-plugin-s3", "~> 1.1.6"
 gem "fluent-plugin-kubernetes_metadata_filter", "~> 2.1.4"
 gem "ffi"
 gem "fluent-plugin-systemd", "~> 1.0.1"
+gem 'fluent-plugin-concat'

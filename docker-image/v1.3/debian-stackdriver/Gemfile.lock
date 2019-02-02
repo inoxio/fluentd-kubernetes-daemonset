@@ -23,6 +23,8 @@ GEM
     ffi (1.10.0)
     fluent-config-regexp-type (1.0.0)
       fluentd (> 1.0.0, < 2)
+    fluent-plugin-concat (2.3.0)
+      fluentd (>= 0.14.0, < 2)
     fluent-plugin-google-cloud (0.4.10)
       fluentd (>= 0.10)
       google-api-client (~> 0.8.6)
@@ -132,6 +134,7 @@ PLATFORMS
 
 DEPENDENCIES
   ffi
+  fluent-plugin-concat
   fluent-plugin-google-cloud (~> 0.4.10)
   fluent-plugin-kubernetes_metadata_filter (~> 2.1.4)
   fluent-plugin-rewrite-tag-filter (~> 2.1.0)
@@ -140,4 +143,4 @@ DEPENDENCIES
   oj (= 3.5.1)
 
 BUNDLED WITH
-   1.16.1
+   1.17.2

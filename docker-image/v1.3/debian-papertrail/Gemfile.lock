@@ -19,6 +19,8 @@ GEM
     fluent-mixin-config-placeholders (0.4.0)
       fluentd
       uuidtools (>= 2.1.5)
+    fluent-plugin-concat (2.3.0)
+      fluentd (>= 0.14.0, < 2)
     fluent-plugin-kubernetes_metadata_filter (2.1.6)
       fluentd (>= 0.14.0, < 2)
       kubeclient (~> 1.1.4)
@@ -97,6 +99,7 @@ PLATFORMS
 
 DEPENDENCIES
   ffi
+  fluent-plugin-concat
   fluent-plugin-kubernetes_metadata_filter (~> 2.1.4)
   fluent-plugin-papertrail (~> 0.2.6)
   fluent-plugin-rewrite-tag-filter (~> 2.1.0)
@@ -105,4 +108,4 @@ DEPENDENCIES
   oj (= 3.5.1)
 
 BUNDLED WITH
-   1.16.1
+   1.17.2

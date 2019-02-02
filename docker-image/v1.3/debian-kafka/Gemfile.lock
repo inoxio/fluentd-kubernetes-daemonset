@@ -16,6 +16,8 @@ GEM
     ffi (1.10.0)
     fluent-config-regexp-type (1.0.0)
       fluentd (> 1.0.0, < 2)
+    fluent-plugin-concat (2.3.0)
+      fluentd (>= 0.14.0, < 2)
     fluent-plugin-kafka (0.7.9)
       fluentd (>= 0.10.58, < 2)
       ltsv
@@ -94,6 +96,7 @@ PLATFORMS
 
 DEPENDENCIES
   ffi
+  fluent-plugin-concat
   fluent-plugin-kafka (~> 0.7.9)
   fluent-plugin-kubernetes_metadata_filter (~> 2.1.4)
   fluent-plugin-rewrite-tag-filter (~> 2.1.0)
@@ -102,4 +105,4 @@ DEPENDENCIES
   oj (= 3.5.1)
 
 BUNDLED WITH
-   1.16.1
+   1.17.2
